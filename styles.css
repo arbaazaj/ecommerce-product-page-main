@@ -1,17 +1,80 @@
-*, body{
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --very-dark-blue: hsl(220, 13%, 13%);
+    --dark-grayish-blue: hsl(219, 9%, 45%);
+    --grayish-blue: hsl(220, 14%, 75%);
+    --light-grayish-blue: hsl(223, 64%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black-lightbox-background: hsl(0, 0%, 0%);
+    --paragraph-font-size: 16px;
+}
+
+*, body {
+    font-family: 'Kumbh Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
-.container{
+
+/* -------Main Container---------------------- */
+
+.container {
     margin-left: 10%;
     margin-right: 10%;
     padding: 0;
 }
 
-.row{}
+/* ------------------------------------------- */
 
-.column{}
+/* ------Navbar CSS--------------------------- */
 
+.navbar {}
+
+.brand-name {}
+
+.nav-section-profile {}
+
+.profile-picture {}
+
+/* ------------------------------------------ */
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+}
+
+/* --------Product CSS ---------------------- */
+
+.product-images {}
+
+.selected-image {}
+
+.product-details {}
+
+.company-name {}
+
+.product-name {}
+
+.description {}
+
+.sale-price {}
+
+.discount {}
+
+.price {}
+
+.quantity {}
+
+.button {}
+
+/* ------------------------------------------ */
+
+/* ------------Footer------------------------ */
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -20,3 +83,19 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* ------------------------------------------ */
+
+/* ------Media queries for screen sizes------ */
+
+/* -Mobile- */
+@media screen and (min-width: 375px) {
+    /*TODO:*/
+}
+
+/* -Desktop- */
+@media screen and (max-width: 1440px) {
+    /*TODO:*/
+}
+
+/* ------------------------------------------ */
