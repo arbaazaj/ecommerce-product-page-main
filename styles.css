@@ -6,14 +6,17 @@
     margin-left: 10%;
     margin-right: 10%;
     padding: 0;
-
-
 }
 
-.row{
+.row{}
 
+.column{}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
-.column{
 
-
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
