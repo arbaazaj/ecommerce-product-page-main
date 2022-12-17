@@ -1,44 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <!-- Main container-->
+<div class="container">
+<!-- Navigation bar-->
+    <div class="navbar">
+      <div class="brand-name">Sneakers</div>
+    </div>
+    <nav>
+      <ul>
+        <!--List of links-->
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <!--Right side section with cart icon & profile picture-->
+    <div class="nav-section-profile">
+      <div><i>Icon</i>
+      </div>
+      <div class="profile-picture"><img src="images/image-avatar.png" alt="It's a profile picture" width="40"
+          height="40"></div>
+    </div>
+    <!--Main product details-->
+    <!--Section one-->
+    <div class="row">
+      <div class="column">
+        <div class="product-images">
+          <div class="selected-image">
+            <img src="images/image-product-1.jpg" alt="">
+          </div>
+          <div class="row">
+            <img src="images/image-product-1-thumbnail.jpg" alt="">
+            <img src="images/image-product-2-thumbnail.jpg" alt="">
+            <img src="images/image-product-3-thumbnail.jpg" alt="">
+            <img src="images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!--Section two-->
+      <div class="column">
+        <div class="product-details">
+          <div class="row"><span class="company-name">Sneaker Company</span>
+            <div class="product-name">Fall Limited Edition Sneakers</div>
+          </div>
+          <div class="row">
+            <div class="description">
+              These low-profile sneakers are your perfect casual wear companion. Featuring a
+              durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </div>
+          </div>
+          <div class="row">
+            <div class="sale-price">$125.00
+              <span class="discount">50%</span>
+            </div>
+            <div class="price">$250.00</div>
+          </div>
+          <div class="row">
+            <div class="quantity">0</div>
+            <div class="button">Add to cart</div>
+          </div>
+        </div>
+</div>
+    </div>
+    <!--Footer Section-->
 
-  Collections
-  Men
-  Women
-  About
-  Contact
-
-  Sneaker Company
-
-  Fall Limited Edition Sneakers
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+     <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Baaz</a>.
+    </div>
+</div>
 </body>
 </html>
