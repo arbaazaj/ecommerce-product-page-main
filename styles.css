@@ -40,13 +40,15 @@ body {
 
 .navbar nav ul li {
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .brand-name img {
-    padding-right: 40px;
+    padding-right: 10px;
 }
 
 .brand-name {
@@ -56,15 +58,26 @@ body {
 /* .cart-logo img{
     float: right;
 } */
+
+.navbar .brand-name .nav-section-profile {
+    display: flex;
+    margin-left: 100px;
+    justify-content: end;
+    align-items: flex-end;
+    float: right;
+}
+
 .nav-section-profile {
     display: flex;
     align-items: center;
+    padding-left: 10px;
+    
 }
 
 .profile-picture img{
     width: 35px;
     height: 35px;
-    padding-left: 30px; 
+    padding-left: 10px; 
 
 }
 
